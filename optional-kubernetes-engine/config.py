@@ -99,7 +99,7 @@ ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
 #
 #  * http://localhost:8080/oauth2callback
 #  * https://<your-app-id>.appspot.com/oauth2callback.
-#
+# ok
 # If you receive a invalid redirect URI error review you settings to ensure
 # that the current URI is allowed.
 GOOGLE_OAUTH2_CLIENT_ID = \
