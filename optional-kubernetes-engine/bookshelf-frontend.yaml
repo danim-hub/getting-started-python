@@ -36,7 +36,7 @@ spec:
       containers:
       - name: bookshelf-app
         # Replace [GCLOUD_PROJECT] with your project ID or use `make template`.
-        image: gcr.io/[GCLOUD_PROJECT]/bookshelf
+        image: gcr.io/ch-gizcjqjakzcm6timg6ei6eg6iqk/bookshelf:18c48cf58421c56832e92a47045bab3c4ca75486
         # This setting makes nodes pull the docker image every time before
         # starting the pod. This is useful when debugging, but should be turned
         # off in production.
